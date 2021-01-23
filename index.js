@@ -3,9 +3,9 @@ window.AudioContext = window.AudioContext || window.webkitAudioContext;
 const context = new AudioContext();
 
 let keyToSoundMap = {
-  w: 'sounds/snare.mp3',
+  w: 'sounds/crash.mp3',
   a: 'sounds/kick-bass.mp3',
-  s: 'sounds/crash.mp3',
+  s: 'sounds/snare.mp3',
   d: 'sounds/tom-1.mp3',
   j: 'sounds/tom-2.mp3',
   k: 'sounds/tom-3.mp3',
