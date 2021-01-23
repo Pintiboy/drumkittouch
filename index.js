@@ -31,7 +31,7 @@ Object.entries(keyToSoundMap).forEach(async entry => {
 })
 
 for (var i = 0; i < numOfButtons; i++) {
-  document.querySelectorAll(".drum")[i].addEventListener("click", function(evt) {
+  document.querySelectorAll(".drum")[i].addEventListener("touchend", function(evt) {
     handleCharacter(this.innerHTML);
   });
 }
